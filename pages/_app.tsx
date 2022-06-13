@@ -1,5 +1,6 @@
 import '~/styles/globals.scss'
 import type { AppProps } from 'next/app'
+import { StatusProvider } from "../context/statusContext"
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }: AppProps) {
