@@ -37,7 +37,7 @@ const MainNav: FunctionComponent = () => {
       ]}
       button={{
         title: 'Cultivate',
-        href: 'https://calitribe-cg1pkjc76-thetechjd.vercel.app/mint'
+        href: '/mint'
       }}
     />
   )
