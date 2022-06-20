@@ -10,25 +10,25 @@ const Configuration: AppConfiguration = {
 
   /** OpenSea Config example */
   collection: {
-    type: 'opensea',
-    slug: 'monstershelter',
-    // 🚨 You must request your API key on the page https://docs.opensea.io/reference/request-an-api-key
-    // 🚨 But at the time of its release, you can use my (I don't guarantee its stability)
-    apiToken: 'e8aee6c785c043f09c7cc9337e333e61'
-  },
+ //   type: 'opensea',
+ //   slug: 'monstershelter',
+ // 🚨 You must request your API key on the page https://docs.opensea.io/reference/request-an-api-key
+ // 🚨 But at the time of its release, you can use my (I don't guarantee its stability)
+ //   apiToken: 'e8aee6c785c043f09c7cc9337e333e61'
+ // },
 
   /** OpenSea (Matic, Polygon) Config example */
-  // collection: {
-  //   type: 'opensea',
-  //   protocol: 'matic',
-  //   slug: 'gooncats',
-  //   apiToken: 'e8aee6c785c043f09c7cc9337e333e61'
-  // },
+  collection: {
+     type: 'opensea',
+     protocol: 'matic',
+     slug: 'cali-tribe-v2',
+     apiToken: 'e8aee6c785c043f09c7cc9337e333e61'
+  },
 
   /** Rarible Config example */
   // collection: {
   //     type: 'rarible',
-  //     blockchain: 'TEZOS',
+  //     blockchain: 'MATIC',
   //     address: 'KT1L7GvUxZH5tfa6cgZKnH6vpp2uVxnFVHKu'
   // }
 }
